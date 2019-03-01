@@ -71,14 +71,22 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	height: 565px;
+	height: 566px;
 }
 
 .header-nav a {
+	border-radius: 3px;
 	color: #b9b9b9;
 	font-size: 15px;
-	margin: 30px;
+	padding: 2px 5px;
+	margin: 25px;
 	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.header-nav a:hover {
+	background-color: black;
+	color: white;
 }
 
 .header-nav a:first-child {
@@ -87,7 +95,7 @@ header {
 
 .header-nav img {
 	display: inline-block;
-	margin-left: 52px;
+	margin-left: 46px;
 	vertical-align: middle;
 }
 
@@ -106,9 +114,16 @@ header {
 
 .header-box section a {
 	border: 1px solid black;
+	border-radius: 3px;
 	color: black;
 	padding: 2px 40px;
 	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.header-box section a:hover {
+	background-color: black;
+	color: white;
 }
 
 .header-box img {
